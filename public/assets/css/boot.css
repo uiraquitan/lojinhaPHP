@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /* box-shadow: 0 0 2px #f00; */
+}
+
+/* 
+body{
+    background-color: rgb(199, 199, 199);
+} */
+
+:root {
+    --bg-back-rosa: background-color: rgb(241, 183, 177);
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    width: 100%;
+    vertical-align: middle;
+    border: none;
+}
+
+img {
+    width: 100%;
+    border: none;
+}
+
+.button,
+button.button {
+    width: 100%;
+    padding: 2%;
+    cursor: pointer;
+    border: none;
+    background: #09c;
+    color: #fbfbfb;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.button:hover,
+button.button:hover {
+    background: #096;
+    color: #fbfbfb;
+}
+
+.cart_info_total p .button {
+    margin: 15px 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: rgb(241, 183, 177); */
+
+    z-index: 3 !important;
+}
+
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 100px; */
+    z-index: 0;
+}
+
+.bg-gradiente {
+    background: rgb(222, 121, 165);
+    background: linear-gradient(90deg, rgba(222, 121, 165, 1) 0%, rgba(245, 193, 239, 1) 35%, rgba(241, 96, 182, 1) 100%);
+}
+
+.bg-back {
+    color: #fbfbfb;
+    background-color: rgb(0, 0, 0);
+}
+
+.bg-um {
+    /* background-color: rgb(216, 161, 177); */
+    color: #fbfbfb;
+    background-color: rgb(102, 20, 6);
+    transition: .4s;
+}
+
+.bg-um:hover {
+    /* background-color: rgb(216, 161, 177); */
+    background-color: #000;
+    color: #fbfbfb;
+}
+
+.bg-dois {
+    background-color: rgb(92, 68, 75);
+    color: #ccc;
+    transition: .4s;
+}
+
+.bg-dois:hover {
+    background-color: #ccc;
+    color: rgb(92, 68, 75);
+}
+
+.bg-tres {
+    background-color: rgb(238, 68, 116);
+    color: #000;
+    transition: .4s;
+}
+
+.bg-tres:hover {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+
+.bg-quatro {
+    background-color: rgb(58, 19, 66);
+    color: #fff;
+    transition: .4s;
+}
+
+.bg-quatro:hover {
+    background-color: #ccc;
+    color: rgb(58, 19, 66);
+}
+
+.button_limparCarrinho {
+    text-align: center;
+    margin: 15px 0;
+}

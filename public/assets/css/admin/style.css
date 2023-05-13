@@ -1,0 +1,1271 @@
+/* LOGIN ADMIN */
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.main_login_back {
+    width: 100vw;
+    height: calc(100vh - 73px);
+    display: flex;
+}
+
+.main_section_login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_section_login header {
+    width: 100%;
+    display: flex;
+}
+
+.main_section_login header h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.main_login {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 7px;
+}
+
+.main_login header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_login header h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.main_login_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_login_div form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.main_login_div form .form_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.main_login_div form .form_div label {
+    width: 20%;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.main_login_div form .form_div input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.main_login_div form .form_div_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_login_div form .form_div_btn input {
+    width: 50%;
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: rgb(198, 38, 133);
+    background: linear-gradient(90deg, rgba(198, 38, 133, 1) 0%, rgba(240, 189, 234, 1) 46%, rgba(210, 55, 55, 1) 100%);
+    font-weight: bold;
+
+}
+
+.main_login_div form .form_div_btn input:hover {
+    width: 50%;
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: rgb(210, 55, 55);
+    background: linear-gradient(90deg, rgba(210, 55, 55, 1) 0%, rgba(240, 189, 234, 1) 46%, rgba(198, 38, 133, 1) 100%);
+    transition: width .5s;
+}
+
+/* CADASTRAR ENDEREÇO */
+.main_adrress_div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_home_header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main_home_header h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.main_adrress_div form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_adrress_div form .form_loja {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.main_adrress_div form .form_loja label {
+    width: 30%;
+    background: #ccc;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.main_adrress_div form .form_loja input,
+.main_adrress_div form .form_loja select {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form_loja_btn {
+    width: 50%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form_loja_btn .button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.form_loja_btn .button:hover {
+    background: #ccc;
+    color: #555;
+}
+
+/* HEADER FUNCIONARIO */
+.main_header_hamburguer_menu {
+    display: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fbfbfb;
+    border-bottom: 1px solid #ccc;
+}
+
+.main_header {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.main_header_logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main_header_logo h1 {
+    color: #222;
+    width: 100%;
+}
+
+.main_header_logo h1 a {
+    color: #222;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main_header_opc {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main_header_opc a {
+    color: #222;
+}
+
+.main_header_opc a:hover {
+    color: aqua;
+
+}
+
+.main_header_menu_admin {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #eee;
+}
+
+.main_header_menu_admin ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main_header_menu_admin ul li {
+    padding: 5px;
+}
+
+.main_header_menu_admin ul li a {
+    color: #222;
+    font-weight: 500;
+    font-size: 0.9em;
+    padding: 5px 10px;
+    display: block;
+}
+
+.main_header_opc_other {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main_header_opc_other a {
+    color: #222;
+    padding: 5px 10px;
+    display: block;
+}
+
+/* HOME */
+.main_home {
+    max-width: 1400px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_home_menu {
+    width: 20%;
+    border: 1px solid #ccc;
+    background-color: #fbfbfb;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.main_home_menu h1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.9em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.main_home_menu ul {
+    width: 100%;
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_home_menu ul li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+
+.main_home_menu ul li a {
+    width: 100%;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #555;
+    padding: 8px 5px;
+
+}
+
+
+.main_home_menu ul li a:hover {
+    background-color: #000;
+    color: #fbfbfb;
+}
+
+.main_home_menu ul li b {
+    width: 10%;
+    height: 20px;
+    background-color: #000;
+}
+
+.main_home_conteudo {
+    width: 70%;
+}
+
+.main_home_conteudo_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel_select_info {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.painel_select_info_itens {
+    width: 33%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.painel_select_info_itens:hover {
+    box-shadow: 0 0 5px #222;
+}
+
+.painel_select_info_itens p {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.painel_select_info_itens a {
+    width: 80%;
+    color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 48px;
+}
+
+/* CLIENTE */
+.main_home_conteudo_h2,
+.main_home_conteudo_h1 {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 5px #ccc;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.main_home_conteudo_h2 h2,
+.main_home_conteudo_h1 h1 {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.main_home_conteudo_h1 h1 small {
+    font-weight: 600;
+    color: #09c;
+}
+
+.main_home_conteudo_status_pedidos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.main_home_conteudo_status_pedidos a {
+    min-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 5px #ccc;
+    border: 1px solid #ccc;
+}
+
+.main_home_conteudo_status_pedidos a:hover {
+    background-color: #000;
+    color: #cfbfbf;
+}
+
+.main_home_conteudo_cliente {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_home_conteudo_cliente ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 3px #ccc;
+    padding: 10px;
+}
+
+.main_home_conteudo_cliente ul li {
+    width: 50%;
+    margin: 3px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9em;
+    background-color: #fbfbfb;
+}
+
+.main_home_conteudo_cliente ul li b {
+    width: 35%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 3px #ccc;
+    padding: 10px;
+    color: #000;
+    padding: 5px;
+}
+
+.main_home_conteudo_cliente ul li small {
+    width: 62%;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 3px #ccc;
+    padding: 10px;
+    color: #000;
+    padding: 5px;
+}
+
+.main_home_conteudo_pedidos {
+    width: 100%;
+    display: flex;
+}
+
+.main_home_conteudo_pedidos ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.main_home_conteudo_pedidos ul li {
+    width: 49%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: #fbfbfb;
+    box-shadow: 0 0 2px #ccc;
+}
+
+.main_home_conteudo_pedidos ul li b {
+    font-weight: bold;
+}
+
+.main_home_conteudo_pedidos ul li small {
+    font-weight: bold;
+}
+
+.main_home_conteudo_pedidos ul li a {
+    font-weight: bold;
+    color: #fbfbfb;
+    padding: 5px;
+    background-color: #000;
+}
+
+.main_home_conteudo_pedidos ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* ITENS */
+.main_home_conteudo_cliente_itens {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.main_home_conteudo_cliente_itens_item {
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.main_home_conteudo_cliente_itens_border {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fbfbfb;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.main_home_conteudo_cliente_itens_item img {
+    width: 100%;
+}
+
+.main_home_conteudo_cliente_itens ul {
+    max-width: calc(100% - 380px);
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.main_home_conteudo_cliente_itens ul li {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+
+.button {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 1px solid #099;
+    background-color: #09c;
+    border-radius: 5px;
+    text-align: center;
+    color: #fbfbfb;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fbfbfb;
+    color: #09c;
+}
+
+.main_home_conteudo_cliente_itens ul li b {
+    width: 25%;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000;
+    font-weight: 400;
+}
+
+.main_home_conteudo_cliente_itens ul li small {
+    width: 73%;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000;
+    font-weight: 400;
+}
+
+.painel_clientes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.painel_clientes ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.painel_clientes ul li {
+    width: 32%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.painel_clientes ul li a {
+    color: #222;
+    font-weight: 400;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+/* ENCOMENDAS */
+.main_home_conteudo_data {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_home_conteudo_encomendas_data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.main_home_conteudo_encomendas_data form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main_home_conteudo_encomendas_data form input {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+
+}
+
+.main_home_conteudo_encomendas_data form button {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* TOTAL VENDAS */
+.painel_select_total_vendas {
+    max-width: 90px;
+    width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.painel_select_info_funcionario {
+    width: calc(100% - 100px);
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.painel_select_info_funcionario_dados {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.painel_select_info_funcionario_dados ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.painel_select_info_funcionario_dados ul li {
+    width: 48%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.painel_select_info_funcionario_dados ul li b {
+    background-color: #e2dfdf;
+    width: 40%;
+    font-size: 0.9em;
+    text-align: left;
+    padding: 4px;
+    font-weight: 600;
+}
+
+.painel_select_info_funcionario_dados ul li small {
+    width: 58%;
+    font-size: 0.9em;
+    text-align: left;
+    padding: 4px;
+    font-weight: 600;
+}
+
+/* VENDAS  */
+.main_total_funcionario {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.main_total_conteudo_h2 {
+    width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 15px 0;
+}
+
+.main_total_conteudo_h2 h2 {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main_total_funcionario_vendas {
+    width: 100%;
+    display: flex;
+}
+
+.main_total_funcionario_vendas ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main_total_funcionario_vendas ul li {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.main_total_funcionario_vendas ul li a {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_total_funcionario_vendas ul li a small {
+    width: 30%;
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 600;
+    background-color: #09c;
+}
+
+.main_total_funcionario_vendas ul li a b {
+    width: 70%;
+    font-size: 0.8em;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+/* ENCOMENDAS MES*/
+.encomendas_mes {
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.encomendas_mes>header {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+
+}
+
+.encomendas_mes>header h1 {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #eee;
+}
+
+.encomendas_mes>.encomendastatusmes {
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    box-shadow: 0 0 3px #ccc;
+    
+}
+
+.encomendas_mes>.encomendastatusmes header {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+.encomendas_mes>.encomendastatusmes header h2 {
+    width: 100%;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+ 
+}
+
+.encomendas_mes>.encomendastatusmes div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.encomendas_mes>.encomendastatusmes div ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.encomendas_mes>.encomendastatusmes div ul li {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 2px 0;
+    align-items: stretch;
+ 
+}
+
+.encomendas_mes>.encomendastatusmes div ul a {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+}
+
+/* @MEDIA */
+/* 1380PX */
+@media(max-width:86.25em) {
+    .painel_select_info {
+        width: 100%;
+    }
+
+    .painel_select_info_itens a {
+        padding: 45px;
+    }
+
+}
+
+
+/* 1155PX */
+@media(max-width:72.18em) {
+    .main_home_conteudo_cliente_itens_item {
+        padding: 10px;
+    }
+
+    .main_home_conteudo_cliente_itens ul li b {
+        background-color: #eee;
+        color: #000;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    .main_home_conteudo_cliente_itens ul li b,
+    .main_home_conteudo_cliente_itens ul li small {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+/* 1120PX */
+@media(max-width:81.25em) {
+    .painel_select_total_vendas {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .painel_select_info_funcionario {
+        width: 100%;
+    }
+}
+
+/* 1000PX */
+@media(max-width:62.50em) {}
+
+/* 980PX */
+@media(max-width:61.25em) {
+    .main_home_conteudo_pedidos ul li {
+        width: 100%;
+    }
+}
+
+/* 950PX */
+@media(max-width:59.37em) {
+    .painel_select_info_itens a {
+        font-size: 0.9em;
+        padding: 20px;
+    }
+}
+
+/* 900PX */
+@media(max-width:56.25em) {
+    .main_header_opc {
+        width: 20%;
+    }
+
+    .main_header_logo {
+        width: 40%;
+    }
+
+    .main_header_menu_admin {
+        width: 20%;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .main_header_hamburguer_menu {
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        color: #222;
+    }
+
+    .main_header_menu_admin ul.active {
+        display: block;
+    }
+
+    .main_header_menu_admin ul {
+        display: none;
+        min-width: 200px;
+        position: absolute;
+        text-align: start;
+        top: 35px;
+        background-color: #000;
+    }
+
+    .main_header_menu_admin ul li {
+
+        border-bottom: 1px solid #fff;
+    }
+
+    .main_header_menu_admin ul li a {
+        color: #fff;
+    }
+
+    .main_header_menu_admin ul li a:hover {
+        color: #000;
+        background-color: #ccc;
+    }
+
+
+
+    .main_home {
+        flex-wrap: wrap;
+    }
+
+    .main_home_menu {
+        width: 95%;
+        flex-wrap: wrap;
+        order: 2;
+    }
+
+    .main_home_menu ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .main_home_menu ul li {
+        width: 32%;
+        flex-wrap: wrap;
+        display: flex;
+
+    }
+
+    .main_home_conteudo {
+        width: 95%;
+    }
+
+    .main_home_conteudo_info {
+        width: 100%;
+        display: flex;
+    }
+
+    .painel_select_info_itens {
+        justify-content: center;
+        max-width: 250px;
+        width: 100%;
+    }
+}
+
+/* 800PX */
+@media(max-width:50em) {
+
+    .main_home_conteudo_encomendas_data form button,
+    .main_home_conteudo_encomendas_data form input {
+        width: 30%;
+    }
+}
+
+/* 770PX */
+@media(max-width:48.12em) {
+    .main_home_conteudo_cliente ul li {
+        width: 100%;
+    }
+
+    .main_home_conteudo_pedidos ul li {
+        width: 100%;
+    }
+
+    .encomendas_mes>.encomendastatusmes {
+        width: 33%;
+    }
+
+}
+
+/* 700PX */
+@media(max-width:43.75em) {
+    .main_home_menu ul li {
+        width: 48%;
+
+    }
+
+    .main_header_opc a span,
+    .main_header_hamburguer_menu span,
+    .main_header_opc_other a span {
+        display: none;
+
+    }
+
+    .main_adrress_div {
+        width: 100%;
+    }
+
+    .main_home_conteudo_cliente_itens_item,
+    .main_home_conteudo_cliente_itens ul {
+        max-width: 100%;
+    }
+
+    .painel_clientes ul li {
+        width: 48%;
+    }
+}
+
+
+/* 600PX */
+@media(max-width:37.5em) {
+    .main_header {
+        font-size: 0.9em;
+    }
+
+    .main_header_menu_admin {
+        width: 10%;
+    }
+
+    .main_header_opc_other {
+        width: 20%;
+    }
+
+    .main_home_conteudo_info {
+        flex-direction: column;
+    }
+
+    .painel_select_info_itens {
+        max-width: 100%;
+    }
+
+    .main_adrress_div form .form_loja {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .main_adrress_div form .form_loja label,
+    .main_adrress_div form .form_loja select,
+    .main_adrress_div form .form_loja input {
+        width: 100%;
+    }
+
+    .painel_select_info_funcionario_dados ul li {
+        width: 100%;
+    }
+
+}
+
+/* 628PX */
+@media(max-width:31.25em) {
+    .main_home_conteudo_status_pedidos {
+
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .main_home_conteudo_status_pedidos a {
+        min-width: 40%;
+    }
+
+
+
+    .main_home_conteudo_h2 h2,
+    .main_home_conteudo_h1 h1 {
+        /* width: 100%; */
+        font-size: 0.875em;
+    }
+
+}
+
+/* 550PX */
+@media(max-width:34.37em) {
+
+    .main_home_conteudo_encomendas_data form {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .main_home_conteudo_encomendas_data form button,
+    .main_home_conteudo_encomendas_data form input {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .encomendas_mes>.encomendastatusmes {
+        width: 100%;
+    }
+}
